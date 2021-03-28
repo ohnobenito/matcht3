@@ -5,7 +5,6 @@
  .table {
   padding: 0px;
   overflow-y: scroll !important;
-  opacity: 90%;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   background-color:white;
   border: 5px solid rgb(207, 127, 35);
@@ -72,6 +71,5 @@ th {
     box-shadow: rgba(144, 179, 214, 0.2) 0px 8px 24px;
     font-size: 35px;
     background-color: white;
-    opacity: 90%;
     
 } 
