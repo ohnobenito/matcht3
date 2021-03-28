@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fascinate+Inline&family=Paytone+One&family=Plaster&display=swap');
+
+.centered {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crazy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  display: flex;
+  font-family: 'Fascinate Inline', cursive;
+  color: black;
+    background: -webkit-linear-gradient(110deg, #a17b09 60%, #c0b01d 60%);
+    background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    background: -moz-linear-gradient(110deg, #ffc927 60%, #ffed4b 60%);
+    background: linear-gradient(70deg, rgba(251, 255, 0, 0.671) 30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #ca931cc0 60%, #a4c02a 60%);
+}
+
+.login .loginContainer {
+  padding: auto;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5%;
+  background: rgba(253, 228, 1, 0.671);
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+}
+
+.login .loginContainer label {
+  margin: 14px 0;
+  display: block;
+  font-size: 22px;
+  line-height: 1;
+  font-family: 'Paytone One', sans-serif;
+  text-align: center;
+}
+
+.login .loginContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 19px;
+  padding: 10px;
+  color: #fff;
+  background-color: #ca931cc0;
+  font-family: 'Paytone One', sans-serif;
+  letter-spacing: 1px;
+}
+
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: #fff;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: yellow;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: red;
+}
+
+.buttons {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+

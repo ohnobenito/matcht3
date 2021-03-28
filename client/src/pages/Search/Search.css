@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fascinate+Inline&family=Paytone+One&family=Plaster&display=swap');
+
+.search {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchpage {
+    width: 100vw;
+    min-height: 100vh;
+    background: -webkit-linear-gradient(110deg, #a17b09 60%, #c0b01d 60%);
+    background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    background: -moz-linear-gradient(110deg, #ffc927 60%, #ffed4b 60%);
+    background: linear-gradient(70deg, rgba(251, 255, 0, 0.671) 30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #ca931cc0 60%, #a4c02a 60%);
+}
+
+.jobs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.instruction {
+    color: Black;
+}
+
+#button {
+    justify-content: center;
+    align-items: center;
+}
+
+.visually-hidden {
+    font-size: xx-large;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.swipe {
+    position: absolute;
+    width: 60vw;
+    height: 60vh;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    
+    
+}
+
+.wrapper {
+    max-height: calc(100vh - 56px);
+    
+}
+
+.search-header {
+    font-size: x-large;
+    color: black;
+    text-align: center;
+
+}
+
+.cardBody {
+    max-height: 80vh;
+    max-width: 50vw;
+    overflow-y: scroll;
+    border: 10px black;
+    font-family: 'Paytone One', sans-serif;
+    background-color: rgb(251, 255, 0);
+   
+}
+.cardText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cardHeaderCompany {
+    background-color: #e9b84d;
+    height: 6vh;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bungee Shade', cursive;  
+    color: black;
+}
+
+
+
+

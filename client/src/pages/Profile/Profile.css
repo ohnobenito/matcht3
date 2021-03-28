@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+
+ .table {
+  padding: 0px;
+  overflow-y: scroll !important;
+  opacity: 70%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color:white;
+  border: 5px solid rgb(207, 127, 35);
+  display: block;
+  max-height: 60vh;
+  max-width: 60vw;
+  overflow-x: hidden;
+  
+} 
+.profilepage{
+    width: 100vw;
+    min-height: 100vh;
+    background: -webkit-linear-gradient(110deg, #a17b09 60%, #c0b01d 60%);
+    background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    background: -moz-linear-gradient(110deg, #ffc927 60%, #ffed4b 60%);
+    background: linear-gradient(70deg, rgba(251, 255, 0, 0.671) 30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #ca931cc0 60%, #a4c02a 60%);
+}
+
+th {
+  justify-content: center;
+}
+
+
+.table tr {
+  padding: 0px;
+  color: black;
+}
+.table-top {
+  padding: auto;
+  text-align: center;
+}
+
+.jobLink a {
+  color: black;
+  justify-content: center;
+}
+
+.photo {
+  border: 1px solid black;
+  float: right;
+}
+
+.content {
+  position: relative;
+}
+.content .hi {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+ .saveTitle {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid rgb(207, 127, 35);
+    font-family: 'Paytone One', sans-serif;
+    box-shadow: rgba(144, 179, 214, 0.2) 0px 8px 24px;
+    font-size: 35px;
+    background-color: white;
+    opacity: 70%;
+    
+} 

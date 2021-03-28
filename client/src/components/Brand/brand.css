@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fascinate+Inline&family=Plaster&display=swap');
+
+
+.brand {
+font-size: 65px;
+font-family: 'Bungee Shade', cursive;
+font-weight: bold;
+margin-top: 1%;
+margin-bottom: 7%;
+margin-left: 8%;
+margin-right: 7%;
+padding-top: 2.5%;
+color: black;
+background: transparent;
+filter: drop-shadow( -1px 4px 8px rgba(6,6,6,0.44));
+}
+
+
+
+.icon {
+  color: #dc3545;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 8px;
+  filter:drop-shadow( -1px 4px 8px rgba(6,6,6,0.44));
+}
+
+
+
+
+
